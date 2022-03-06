@@ -8,10 +8,23 @@
 </head>
 <body>
 
+<!--
+    Formatos de imágenes más comunes:
+        PNG: soporta transparencias. Compresión sin pérdidas
+             Imágenes "lisas". Sí
+        JPG: Compresión con pérdidas. Ideal para imágenes.
+            con texturas. Sí
+        SVG: Formato vectorial. Ideal para imágenes escalables. Sí
+        GIF: Formato para imágenes pequeñas y animadas.
+             INTENTAR EVITAR.
+        WEBP: Alternativa libre de Google al JPEG. Soporta
+             transparencias. Sí, con precaución.
+-->
 
 <h2>Picture</h2>
     <!--  la etiqueta picture -->
         <picture>
+        <source srcset="dog-gc4b1be3a9_1920.webp" />
         <!-- Formato WebP -->
         <img src="dog-gc4b1be3a9_1920.jpg"
         alt="Es una imagen de un perrito" width="400" height="453" />
